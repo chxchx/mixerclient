@@ -376,7 +376,7 @@ cc_proto_library(
 )
 """.format(protobuf_repo)
 
-    MIXER_API = "ee9769f5b3304d9e01cd7ed6fb1dbb9b08e96210"
+    MIXER_API = "81edae14b0cc3a12e2f1d4c14f1c50ea43a87107",
     native.new_git_repository(
         name = "mixerapi_git",
         commit = MIXER_API,
